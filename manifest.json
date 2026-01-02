@@ -1,0 +1,19 @@
+
+{
+  "short_name": "店管家PRO",
+  "name": "店管家 PRO - 营业额与提成管理系统",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2652/2652234.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0f172a",
+  "background_color": "#fbfcfd",
+  "orientation": "portrait",
+  "description": "专业的店面营业额记录与员工提成自动结算系统"
+}

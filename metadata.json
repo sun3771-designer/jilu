@@ -1,0 +1,5 @@
+{
+  "name": "Smart Turnover & Commission Tracker",
+  "description": "A comprehensive business management tool for tracking daily sales, calculating commissions for 6 employees, and segregating online vs. cash payments with monthly reporting.",
+  "requestFramePermissions": []
+}
