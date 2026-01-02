@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <title>店管家 PRO</title>
     
-    <!-- PWA 配置 -->
-    <link rel="manifest" href="/manifest.json">
+    <!-- PWA 配置 - 使用相对路径 -->
+    <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#0f172a">
 
     <!-- iOS 专用沉浸式配置 -->
@@ -23,12 +23,10 @@
             background-color: #fbfcfd;
             margin: 0;
             -webkit-tap-highlight-color: transparent;
-            /* 适配 iPhone 底部刘海屏 */
             padding-bottom: env(safe-area-inset-bottom);
         }
         #root { min-height: 100vh; }
         
-        /* 针对 iOS 全屏模式的顶部间距修正 */
         @media screen and (display-mode: standalone) {
             header {
                 padding-top: env(safe-area-inset-top);
@@ -52,6 +50,7 @@
 </head>
 <body>
     <div id="root"></div>
-    <script type="module" src="/index.tsx"></script>
+    <!-- 这里的路径也改成了 index.tsx，去掉了斜杠 -->
+    <script type="module" src="index.tsx"></script>
 </body>
 </html>
